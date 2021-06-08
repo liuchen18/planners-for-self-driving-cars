@@ -1,10 +1,7 @@
-# Motion Planner for Self-Driving Cars    			             
-This project implements RRT motion planning for a car (non-holonomic robot) with steering as the only control input.  
-A\*, Dijkstra, BFS and DFS planners are also supported.
 
-<p align="center">
-  <img src="https://github.com/dahhmani/Motion-Planning-for-Self-Driving-Cars/blob/master/demo/demo.gif?raw=true">
-</p>
+# Different PLanners for Self-Driving Cars    			             
+This project is forked from [Here](https://github.com/dahhmani/Motion-Planning-for-Self-Driving-Cars) but I just changed the orginal one. the model of the car is changed and more olanners are implemented. the orginal car has only steering as the control input and A\*, Dijkstra, BFS and DFS planners are implemented
+
 
 ## How to Run
 Clone this entire repository. Make sure the directory you clone it to is one you have write access to, as several files are created while the program runs. Open Terminal and navigate to the Code directory. Type `python autopilot.py`. If you have additional versions of Python installed, you may need to type `python3 autopilot.py` instead. 
@@ -33,19 +30,19 @@ The program has several difficulty modes, which can be selected by changing the 
 ### Easy
 Easy mode features a length of road and a handful of obstacles. The image below was split onto two lines for easier viewing. 
 
-![Easy Mode](https://github.com/BrianBock/ENPM661-Project-5/blob/master/Report/course_split2.png)
+![Easy Mode]()
 
 
 
 ### Medium
 
-![Medium Mode](https://github.com/BrianBock/ENPM661-Project-5/blob/master/Report/Medium1.png)
+![Medium Mode]()
 
 
 
 ### Hard
 
-![Hard Mode](https://github.com/BrianBock/ENPM661-Project-5/blob/master/Report/Hard1.png)
+![Hard Mode]()
 
 
 ### Random
